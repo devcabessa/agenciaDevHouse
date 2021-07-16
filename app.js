@@ -14,4 +14,3 @@ app.get("/manutencao", (req, res) => {
     res.sendFile(__dirname + "/views/manutencao.html")
 })
 
-/*gfggg*/
