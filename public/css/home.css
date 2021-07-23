@@ -1,0 +1,86 @@
+ul{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+}
+
+
+.menu a{
+    font-size: 16px;
+    color: #1E266D;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.atendimento button{
+    background-color: #3751ff;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    text-align: center;
+    color: #1E266D;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #455880;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobrenos {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.sobrenos button{
+    background-color: #3751ff;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+  
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #banner1 * {
+    margin-top: 20px;
+} */
+
+.banner * {
+    margin-top: 10px;
+}

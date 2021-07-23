@@ -1,3 +1,5 @@
+/*FOI COLOCADO UM NPM NO NODEMON, LA NO PACKGE.JSON, PRA EXECUTAR O NODEMON MAIS RAPIDO*/
+
 const express = require("express");
 const app = express()
 app.use(express.static('public'))

@@ -1,0 +1,29 @@
+
+h1 {
+    color: red;
+}
+
+h4 {
+    font-style: italic;
+}
+
+.icone-social {
+    width: 80px;;
+}
+
+header {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-content: center
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
