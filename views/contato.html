@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="stylesheet" href="/css/style-global.css">
+    <title>Contato | Agencia DevHouse</title>
+</head>
+<body>
+    <header>
+        <img src="/img/logo.png" alt="Agencia - devHouse" title="Agencia - devHouse" id = "logo">
+        <nav class="menu">
+        <a href="">Home</a>
+        <a href="">Produtos</a>
+        <a href="">Depoimentos</a>
+        <a href="">Blog</a>
+    </nav>
+    <div class="atendimento">
+        <a href="(21)4002-8922">(21)4002-8922</a>
+        <button>Contato</button>
+    </div>
+</header>
+<section class="secao1">
+    <div id="contato">
+        <h1>Contato</h1>
+        <small>Questions or concerns? Just fill out the form below and our support team will <br> get back to you within 24 hours.</small> <!--sanall é um tag de texto que da entender que aquele texto não tem muita relevancia, um texto pequeno e simples.-->
+    </div>
+    <div class="formulario">
+        <!--PARA RECEBER O FORMULARIO, CRIAMOS UMA ROTA NO action, E USAMOS O METODO post para direcinar a rota. ESTAMOS MANDANDO INFORMAÇÕES.-->
+    <form action="/receber-contato" method="post">
+        <div id="nome-completo"> <!--USEI DIV PRA FICAR MAIS FACIL PRA ESTILIZAR NO CSSS-->
+            <input type="text" name="nome" id="" placeholder="Nome">
+            <input type="text" name="sobrenome" id="" placeholder="Sobrenome">
+        </div>
+        <input type="tel" name="telefone" id="" placeholder="Telefone">
+        <br>
+        <select name="servico" id="">
+            <option selected disabled>Selecione um Serviço</option>
+            <option value="criacao-site">Criação de Site</option>
+            <option value="marketing">Marketing</option>
+            <option value="fotos">Fotos</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    </div>
+</section>
+</body>
+</html>

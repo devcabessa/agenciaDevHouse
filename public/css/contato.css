@@ -1,0 +1,76 @@
+.secao1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1E266D;
+}
+
+small{
+    margin-top: 60px;
+}
+
+#nome-completo{
+    display: flex;
+    flex-direction: row;
+    /* gap: 34px; */
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#nome-completo input{
+    width: 283.33px;
+    height: 67.08px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+
+input {
+    width: 600px;
+    height: 67.08px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 18px; /* altera fonte da caixa do formulario*/
+    padding: 5px; /* coloca uma borda interna na caixa do formulario*/
+    box-sizing: border-box;
+}
+
+select {
+    width: 600px;
+    height: 67.08px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.formulario button {
+    width: 177.78px;
+    height: 55.9px;
+    background: #3751FF;
+    border: 1.5px solid #3751FF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.formulario *{
+ margin-top: 10px;
+}

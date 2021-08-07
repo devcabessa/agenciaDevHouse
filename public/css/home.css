@@ -2,23 +2,7 @@ ul{
     list-style-type: none;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    background-color: white;
-}
-
-
-.menu a{
-    font-size: 16px;
-    color: #1E266D;
-    text-decoration: none;
-    margin-left: 50px;
-}
-
-.atendimento button{
+.botao{
     background-color: #3751ff;
     font-size: 16px;
     font-weight: bold;
@@ -26,7 +10,8 @@ header{
     padding: 10px;
     border-radius: 40px;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 40px; 
+    text-decoration: none;
 }
 
 h1 {
@@ -59,6 +44,7 @@ p {
     justify-content: center;
     gap: 5px;
 }
+
 .sobrenos button{
     background-color: #3751ff;
     font-size: 16px;
